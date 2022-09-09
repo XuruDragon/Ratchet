@@ -51,8 +51,9 @@ class VirtualSessionStorage extends NativeSessionStorage {
     /**
      * {@inheritdoc}
      */
-    public function regenerate($destroy = false, $lifetime = null) {
+    public function regenerate($destroy = false, $lifetime = null) : bool {
         // .. ?
+        return true;
     }
 
     /**
